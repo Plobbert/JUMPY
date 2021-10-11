@@ -1,2 +1,2 @@
 # JUMPY
-Game called JUMPY! - Created with Crisp
+Game called JUMPY! - Created with CrispGameLib
