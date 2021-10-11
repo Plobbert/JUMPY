@@ -9,15 +9,13 @@ description = `
 
 characters = [
 `
- ll  
-llll 
-llll
-llll
-llll
-l  l 
-  `
-    ,
-
+ rr  
+rllr 
+rrrr
+rrrr
+rrrr
+r  r 
+  `,
 ];
 
 options = {
@@ -94,7 +92,7 @@ function update() {
   rect (rec1.xpos, rec1.ypos, rec1.width, PLATFORM.height)
   color("light_purple")
   rect (rec2.xpos, rec2.ypos, rec2.width, PLATFORM.height)
-  color("light_green")
+  color("black")
   char("a", p.xpos, p.ypos);
 
   if (char("a", p.xpos, p.ypos).isColliding.rect.light_red) {
